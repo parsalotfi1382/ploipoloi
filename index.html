@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامه جذاب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question">
+            <p>می‌دونی چرا این برنامه رو برات نوشتم؟</p>
+            <button onclick="answer('yes')">بله</button>
+            <button onclick="answer('no')">نه</button>
+        </div>
+        <div id="response" style="display: none;">
+            <div id="heart-container" style="display: none;">
+                <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 180s-55-35-85-75c-15-18-15-44 0-60 12-14 30-20 50-15 15 4 30 15 35 30 5-15 20-26 35-30 20-5 38 1 50 15 15 16 15 42 0 60-30 40-85 75-85 75z" fill="#e53935"/>
+                </svg>
+                <p>چون خیلی دوست دارم</p>
+            </div>
+            <div id="angry-message" style="display: none;">
+                <p>قهرم!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
